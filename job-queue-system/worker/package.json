@@ -1,0 +1,16 @@
+{
+    "name": "job-queue-worker",
+    "version": "1.0.0",
+    "description": "Worker for Job Queue System",
+    "main": "worker.js",
+    "scripts": {
+        "start": "node worker.js",
+        "dev": "nodemon worker.js"
+    },
+    "dependencies": {
+        "redis": "^3.1.2"
+    },
+    "devDependencies": {
+        "nodemon": "^3.0.1"
+    }
+}
